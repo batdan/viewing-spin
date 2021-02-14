@@ -2,6 +2,10 @@
 	"name" : "vw/spin",
 	"type" : "library",
 	"licence" : "proprietary",
+	"authors": [{
+		"name": "Daniel Gomes",
+		"role": "Developer"
+ 	}],
 	"autoload" : {
 		"classmap" : [
 			"lib/"
