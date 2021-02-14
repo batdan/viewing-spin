@@ -1,0 +1,13 @@
+{
+	"name" : "vw/spin",
+	"type" : "library",
+	"licence" : "proprietary",
+	"autoload" : {
+		"classmap" : [
+			"lib/"
+		]
+	},
+	"require" : {
+		"firephp/firephp-core": "@stable"
+	}
+}

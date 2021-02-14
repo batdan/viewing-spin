@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+.spin .cm,
+.spin .cm_edit,
+.spin .cm_synonymes,
+.spin .cm_spin,
+.spin .cm_tag {
+	background	   : linear-gradient(to bottom, #fff, #ddd);
+
+	position       : absolute;
+	margin-top     : 20px;
+	z-index        : 1;
+
+	font-family    : Arial;
+	font-size      : 14px;
+
+	padding        : 5px 5px 0 5px;
+	border         : 1px solid #bbb;
+	box-shadow     : -1px 1px 5px 1px #888;
+	border-radius  : 5px;
+}
+
+.spin .cm button,
+.spin .cm_edit button,
+.spin .cm_synonymes button,
+.spin .cm_spin button,
+.spin .cm_tag button {
+	width: 34px;
+	margin-bottom: 6px;
+}
+
+.spin .cm  button>span,
+.spin .cm_edit button>span,
+.spin .cm_synonymes button>span,
+.spin .cm_spin button>span,
+.spin .cm_tag button>span {
+	font-size: 14px;;
+}
+
+.spin .cm .buttonText,
+.spin .cm_edit .buttonText,
+.spin .cm_synonymes .buttonText,
+.spin .cm_spin .buttonText,
+.spin .cm_tag .buttonText {
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+.spin .cm .tagSpe,
+.spin .cm_edit .tagSpe,
+.spin .cm_synonymes .tagSpe,
+.spin .cm_spin .tagSpe,
+.spin .cm_tag .tagSpe {
+	width: 120px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+.spin .cm .tagSpe2,
+.spin .cm_edit .tagSpe2,
+.spin .cm_synonymes .tagSpe2,
+.spin .cm_spin .tagSpe2,
+.spin .cm_tag .tagSpe2 {
+	width: 98px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+.spin .cm .tagSpe3,
+.spin .cm_edit .tagSpe3,
+.spin .cm_synonymes .tagSpe3,
+.spin .cm_spin .tagSpe3,
+.spin .cm_tag .tagSpe3 {
+	width: 99px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+.spin .cm .autoValid,
+.spin .cm_edit .autoValid,
+.spin .cm_synonymes .autoValid,
+.spin .cm_spin .autoValid,
+.spin .cm_tag .autoValid {
+	border-bottom: 1px solid #C63632;
+	/*color: #9b1613;*/
+}
+
+.spin .cm_edit .buttons_container {
+    display         : block;
+    width           : 100%;
+}
+
+.spin .cm_edit .buttons_left,
+.spin .cm_edit .buttons_right {
+    display         : inline-block;
+    padding         : 0 1px;
+    width           : 50%;
+}
+
+.spin .cm_edit .btn-mylabel {
+	boder 			: 1px solid;
+	border-color	: transparent;
+	background-color: #2c75bf;
+	color			: #fff;
+	cursor 			: default;
+}
+
+.spin .cm_edit .text-ref {
+	background-color: #ddd;
+	color			: #333;
+	border			: 1px solid #bbb;
+	border-radius	: 3px;
+	padding 		: 10px 10px;
+	margin-bottom 	: 5px;
+}
+
+.spin .cm_edit .visu-space {
+	font-size 		: 8px;
+	color			: #c63632;
+	padding			: 0 1px 0 1px;
+}

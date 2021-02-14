@@ -1,0 +1,180 @@
+.spin {
+	color			: #555;
+	padding			: 6px 12px;
+	transition		: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	box-shadow		: none;
+	border			: 1px solid #ccc;
+	border-radius	: 3px;
+}
+
+.spin:hover, .spin:focus {
+	transition		: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	box-shadow		: 0px 0px 10px -2px #66afe9;
+	border			: 1px solid #66afe9;
+}
+
+.spin div {
+	display			: inline;
+}
+
+.spin .add-new-spin {
+	cursor			: pointer;
+}
+
+.spin .add-new-spin:hover {
+	color			: #C63632;
+}
+
+.spin .off {
+	cursor			: pointer;
+	background		: none;
+}
+
+.spin .off:hover {
+	background		: #e6e6e6;
+}
+
+.spin .modalspin .off:hover {
+	background		: #bebebe;
+}
+
+.spin .on {
+	cursor			: pointer;
+	color			: #fff;
+	background		: #000;
+	text-decoration	: none;
+}
+
+.spin .spin_off {
+	color			: #0a81dc;
+	cursor			: pointer;
+	background		: none;
+}
+
+.spin .spin_off:hover {
+	background		: #d7eeff;
+}
+
+.spin .modalspin .spin_off:hover {
+	background		: #aedcff;
+}
+
+.spin .spin_on {
+	cursor			: pointer;
+	color			: #fff;
+	background		: #0a81dc;
+	text-decoration	: none;
+}
+
+.spin .lock {
+	color			: #aaa;
+}
+
+.spin .tag {
+	cursor			: pointer;
+	color			: #bbb;
+}
+
+.spin .modalspin .tag {
+	cursor			: pointer;
+	color			: #999;
+}
+
+.spin .tag-on {
+	cursor			: pointer;
+	color			: #222;
+}
+
+/* Balises non fermantes */
+.spin .tag-a-1 {
+	margin			: 0 1px 0 2px;
+}
+.spin .tag-a-2 {
+	margin			: 0 2px 0 1px;
+}
+
+/* Balises fermantes */
+.spin .tag-b {
+	margin			: 0 2px;
+}
+
+/* Balises spe : geo, bloc html, etc. */
+.spin .tag-spe {
+	background 		: #c63632;
+	color 			: #fff;
+	padding-right 	: 3px;
+	padding-left 	: 3px;
+	margin-right 	: 2px;
+	margin-left 	: 2px;
+	padding-bottom 	: 1px;
+}
+
+.spin .tag-spe:hover {
+	background 		: #222;
+	cursor 			: pointer;
+}
+
+/* hr */
+.spin hr {
+	color			: #bbb;
+}
+
+.spin .modalspin hr {
+	border-color	: #aaa;
+}
+
+/* Variantes null */
+.spin .modalspin .null {
+	color			: #bbb;
+	font-weight		: bold;
+}
+
+/************ Tool Bar Spin ************/
+.spin .toolBar {
+	background	   	: linear-gradient(to bottom, #fff, #ddd);
+	display			: block;
+	position		: relative;
+	left			: -12px;
+	top				: -6px;
+	width			: calc(100% + 24px);
+	border-top-right-radius		: 3px;
+	border-top-left-radius		: 3px;
+	border-bottom	: 1px solid #ccc;
+	padding-top 	: 3px;
+	padding-bottom 	: 2px;
+}
+
+.spin .toolBarTable {
+	display			: table-row;
+	padding			: 0;
+	margin			: 0;
+}
+
+.spin .toolBarTable .button {
+	display			: table-cell;
+	width			: 30px;
+	height			: 23px;
+	color 			: #555;
+	cursor 			: pointer;
+}
+
+.spin .toolBarTable .button:hover {
+	color 			: #C63632;
+}
+
+.spin .toolBarTable .button-off {
+	display			: table-cell;
+	width			: 30px;
+	height			: 23px;
+	color 			: #aaa;
+	cursor 			: default;
+}
+
+.spin .toolBarTable .sep {
+	display			: table-cell;
+	height			: 18px;
+	border			: solid;
+	border-width	: 0 1px;
+	border-left-color	: #ccc;
+	border-right-color	: #fff;
+}

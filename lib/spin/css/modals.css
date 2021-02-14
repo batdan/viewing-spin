@@ -1,0 +1,68 @@
+.spin .modalspin {
+    background      : linear-gradient(to bottom, #fff, #ddd);
+    min-width       : 180px;
+
+	position        : absolute;
+	margin-top      : 20px;
+	z-index         : 1;
+
+	font-family     : Arial;
+	font-size       : 14px;
+
+	padding         : 5px 5px 0 5px;
+	border          : 1px solid #bbb;
+	box-shadow      : -1px 1px 5px 1px #888;
+	border-radius   : 5px;
+}
+
+.spin .modalspin textarea {
+    width           : 100%;
+    resize          : none;
+}
+
+.spin .modalspin .buttons_container {
+    display         : block;
+    width           : 100%;
+    margin-bottom   : 5px;
+}
+
+.spin .modalspin .buttons_left,
+.spin .modalspin .buttons_right {
+    display         : inline-block;
+    padding         : 0 1px;
+    width           : 50%;
+}
+
+.spin .modalspin .buttons_left button,
+.spin .modalspin .buttons_right button {
+    width           : 40px;
+}
+
+.spin .modalspin .spin_comb {
+    display         : block;
+    margin          : 0 0 5px 0;
+}
+
+.spin .modalspin .container_comb {
+    display         : block;
+    border-top      : 1px solid #bbb;
+}
+
+.spin .modalspin .container_comb_0 {
+    display         : block;
+}
+
+.spin .modalspin .comb {
+    display         : inline-block;
+    width           : calc(100% - 22px);
+    padding         : 10px 0;
+}
+
+.spin .modalspin .comb_actions {
+    display         : inline-block;
+    width           : 22px;
+}
+
+.spin .modalspin .delete-comb {
+    width           : 22px;
+}
