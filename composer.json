@@ -1,17 +1,17 @@
 {
-	"name" : "vw/spin",
-	"type" : "library",
-	"licence" : "proprietary",
+	"name": "vw/spin",
+	"type": "library",
+	"licence": "proprietary",
 	"authors": [{
 		"name": "Daniel Gomes",
 		"role": "Developer"
  	}],
-	"autoload" : {
-		"classmap" : [
+	"autoload": {
+		"classmap": [
 			"lib/"
 		]
 	},
-	"require" : {
+	"require": {
 		"firephp/firephp-core": "@stable"
 	},
 	"license": [
