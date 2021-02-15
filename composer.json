@@ -13,5 +13,8 @@
 	},
 	"require" : {
 		"firephp/firephp-core": "@stable"
-	}
+	},
+	"license": [
+	   "GPL-3.0-or-later"
+	]
 }
